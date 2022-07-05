@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-style.css">
+    <link rel="stylesheet" href="css/reset-style.css">
+  <title>Deposit Calculator</title>
+  <link rel="icon" type="icon" href="img/favicon.ico">
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <img class="logo" src="img/logo-light 1.png" alt="">
+      </div>
+      <div class="navbar_title">
+        Deposit Calculator
+      </div>
+    </nav>
+
+    <main class="main container">
+      <header class="section_header">
+        <h1>Депозитный калькулятор</h1>
+        <p>Калькулятор депозитов позволяет рассчитать ваши доходы после внесения суммы на счет в банке по опредленному тарифу.</p>
+      </header>
+      <form class="section_calculator">
+        <label for="opening" class="opening">
+          <p>Дата открытия (ДД.ММ.ГГ)</p>
+          <input type="text" id="opening" value="" placeholder="Введите дату открытия">
+        </label> 
+        <label for="deposit" class="deposit">
+          <p>Срок вклада</p>
+          <input type="text" id="deposit" placeholder="От 1  до 60 месяцев" value="">
+        </label>
+        <label for="amount" class="amount">
+          <p>Сумма вклада</p>
+          <input type="text" id="amount" value="" placeholder="От 1000 до 3.000.000₽">
+        </label>
+        <label for="percent" class="percent">
+          <p>Процентная ставка, % годовых</p>
+          <input type="text" id="percent" value="" placeholder="От 3 до 100%">
+        </label>
+      </form>
+      <footer class="section_footer">
+        <div class="footer_btn">
+          <button id="btn_calc">Рассчитать</button>
+        </div>
+        <div class="footer_sum">
+          <p>Сумма к выплате:</p>
+          <h1 id="total_amount">0 ₽</h1>
+        </div>
+      </footer>
+    </main>
+  </div>
+<script src="js/main.js"></script>
+</body>
+</html>

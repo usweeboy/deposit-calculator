@@ -1,0 +1,40 @@
+@media (min-width: 0px) and (max-width: 1125px) {
+  .wrapper .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper .navbar .navbar_logo {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 1565px) and (max-width: 3840px) {
+  .wrapper .navbar {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrapper .navbar .navbar_logo {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 464px) {
+  .wrapper .main .section_calculator {
+    gap: 30px;
+  }
+  .wrapper .main .section_calculator .opening input, .wrapper .main .section_calculator .deposit input, .wrapper .main .section_calculator .amount input, .wrapper .main .section_calculator .percent input {
+    width: 300px;
+  }
+  .wrapper .main .section_footer {
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+@media (min-width: 465px) and (max-width: 1025px) {
+  .wrapper .main .section_footer {
+    padding-top: 40px;
+    padding-left: 0px;
+    text-align: center;
+  }
+}

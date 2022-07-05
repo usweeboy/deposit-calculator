@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.container {
+  background-color: #FAF6F6;
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
+.wrapper .main .section_footer .footer_sum p, .wrapper .main .section_footer .footer_btn button, .wrapper .main .section_calculator .opening input, .wrapper .main .section_calculator .deposit input, .wrapper .main .section_calculator .amount input, .wrapper .main .section_calculator .percent input, .wrapper .main .section_header p, .wrapper .main .section_header h1, .wrapper .navbar .navbar_title {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  background: #E5E5E5;
+}
+.wrapper .navbar {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1F2229;
+  padding: 3px;
+}
+.wrapper .navbar .navbar_logo {
+  margin-left: 142px;
+  padding-top: 7.5px;
+}
+.wrapper .navbar .navbar_title {
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+.wrapper .main {
+  width: 100%;
+  height: 100vh;
+}
+.wrapper .main .section_header {
+  text-align: center;
+}
+.wrapper .main .section_header h1 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #1F2229;
+  padding-top: 50px;
+}
+.wrapper .main .section_header p {
+  padding-top: 25px;
+  font-size: 15px;
+  line-height: 14px;
+  color: #1F2229;
+}
+.wrapper .main .section_calculator {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+}
+.wrapper .main .section_calculator .opening, .wrapper .main .section_calculator .deposit, .wrapper .main .section_calculator .amount, .wrapper .main .section_calculator .percent {
+  display: block;
+}
+.wrapper .main .section_calculator .opening p, .wrapper .main .section_calculator .deposit p, .wrapper .main .section_calculator .amount p, .wrapper .main .section_calculator .percent p {
+  color: #1F2229;
+  font-size: 14px;
+}
+.wrapper .main .section_calculator .opening input, .wrapper .main .section_calculator .deposit input, .wrapper .main .section_calculator .amount input, .wrapper .main .section_calculator .percent input {
+  margin-top: 5px;
+  outline: none;
+  font-size: 16px;
+  color: #000000;
+  padding: 17px 0px 17px 15px;
+  background: #FFFFFF;
+  border: 1.8px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 365px;
+}
+.wrapper .main .section_calculator .opening .error_style, .wrapper .main .section_calculator .deposit .error_style, .wrapper .main .section_calculator .amount .error_style, .wrapper .main .section_calculator .percent .error_style {
+  color: red;
+  border: 1.8px solid #FF5A5F;
+}
+.wrapper .main .section_footer {
+  padding-top: 50px;
+  padding-left: 64px;
+}
+.wrapper .main .section_footer .footer_btn button {
+  background: #33C4A0;
+  border: 1px solid #33C4A0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 19px 54px 19px 54px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 14px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.wrapper .main .section_footer .footer_sum {
+  margin-top: 40px;
+}
+.wrapper .main .section_footer .footer_sum p {
+  font-size: 17px;
+  line-height: 14px;
+  color: #1F2229;
+}
+.wrapper .main .section_footer .footer_sum h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000;
+  margin-top: 15px;
+}
