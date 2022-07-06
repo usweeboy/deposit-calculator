@@ -1,4 +1,4 @@
-# deposit-calculator
+<h1 align="center">Deposit Calculator</h1> 
 
 Техническое задание для компании **Iq Dev**. Разработать депозитный калькулятор который должен: 
 - сохранять данные в итоговой сумме (localStorage);
